@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Fajar's Digital Space - Diary & Code Cheatsheets
 
-## Getting Started
+A modern, responsive website built with Next.js for sharing personal diary entries and programming cheatsheets. This project combines personal reflection with knowledge sharing, creating a digital space for documenting learning journeys and experiences.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **Personal Diary**: Share thoughts, experiences, and reflections with a clean, readable interface
+- **Code Cheatsheets**: Quick reference guides for programming languages and frameworks
+- **Responsive Design**: Beautiful UI that works perfectly on desktop and mobile devices
+- **Dark Mode Support**: Automatic dark/light mode based on system preferences
+- **Modern Tech Stack**: Built with Next.js 14, TypeScript, and Tailwind CSS
+- **SEO Optimized**: Proper meta tags and structure for search engine optimization
+
+## 🚀 Tech Stack
+
+- **Framework**: Next.js 14 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Icons**: Lucide React
+- **Deployment**: Ready for Vercel deployment
+
+## 📁 Project Structure
+
+```
+src/
+├── app/
+│   ├── cheatsheets/
+│   │   ├── javascript-variables-strings/
+│   │   │   └── page.tsx
+│   │   └── page.tsx
+│   ├── diary/
+│   │   └── page.tsx
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+└── components/
+    └── Navigation.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Install dependencies:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+   ```bash
+   npm install
+   ```
 
-## Learn More
+2. **Run the development server:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Open your browser:**
+   Navigate to [http://localhost:3000](http://localhost:3000)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Available Scripts
 
-## Deploy on Vercel
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎨 Current Content
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Cheatsheets
+
+- **JavaScript Variables & Strings**: Comprehensive guide covering `let`, `const`, `var`, string methods, and best practices
+
+### Diary
+
+- Ready structure for personal entries (content to be added)
+
+## 🔮 Future Plans
+
+- Add more programming cheatsheets (React, TypeScript, CSS, etc.)
+- Implement search functionality
+- Add categorization and filtering
+- Include syntax highlighting for code examples
+- Add personal diary entries
+- Implement RSS feed for updates
+
+## 🚀 Deployment
+
+This project is optimized for deployment on Vercel:
+
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Deploy with zero configuration
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/yourusername/note-diary-wikipedia)
+
+## 🤝 Contributing
+
+This is a personal project, but suggestions and improvements are welcome! Feel free to open issues or submit pull requests.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
