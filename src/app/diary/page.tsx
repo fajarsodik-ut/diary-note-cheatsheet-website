@@ -13,6 +13,14 @@ interface DiaryEntry {
 
 const diaryEntries: DiaryEntry[] = [
   {
+    id: 'gacha-game-mechanics',
+    title: 'Understanding Gacha Game Combat Mechanics: RGB & L&D Systems',
+    excerpt: 'Today I created an interactive infographic about elemental combat systems in gacha games. Understanding these mechanics is crucial for strategic gameplay and team building.',
+    date: '2025-08-05',
+    readTime: '5 min read',
+    tags: ['Gaming', 'Infographic', 'Game Design', 'Gacha Games', 'Combat Systems'],
+  },
+  {
     id: 'my-first-entry',
     title: 'Starting My Learning Journey - Building This Website',
     excerpt: 'Today I started creating my personal website to document my coding journey and share what I learn. It feels exciting to have a place where I can track my progress and help others along the way.',
