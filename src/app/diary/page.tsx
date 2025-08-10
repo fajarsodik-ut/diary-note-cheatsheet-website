@@ -13,6 +13,14 @@ interface DiaryEntry {
 
 const diaryEntries: DiaryEntry[] = [
   {
+    id: 'xampp-htdocs-configuration',
+    title: 'Configuring XAMPP: Changing the htdocs Folder Location',
+    excerpt: 'Today I learned how to configure XAMPP to use a custom folder on my D drive instead of the default htdocs location. This is super useful for organizing web projects across different drives! 🧑‍💻',
+    date: '2025-08-11',
+    readTime: '4 min read',
+    tags: ['Web Development', 'XAMPP', 'Apache', 'Configuration', 'Local Server', 'PHP'],
+  },
+  {
     id: 'gacha-game-mechanics',
     title: 'Understanding Gacha Game Combat Mechanics: RGB & L&D Systems',
     excerpt: 'Today I created an interactive infographic about elemental combat systems in gacha games. Understanding these mechanics is crucial for strategic gameplay and team building.',
