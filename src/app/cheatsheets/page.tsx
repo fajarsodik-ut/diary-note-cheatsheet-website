@@ -15,10 +15,10 @@ const cheatsheets = [
   {
     id: 'javascript-arrays-objects',
     title: 'JavaScript Arrays & Objects',
-    description: 'Essential guide to working with arrays and objects in JavaScript, including methods and best practices.',
+    description: 'Comprehensive study notes covering array characteristics, methods, destructuring, and practical examples for working with arrays.',
     category: 'JavaScript',
-    readTime: 'Coming Soon',
-    date: '2025-08-04',
+    readTime: '8 min read',
+    date: '2025-08-15',
     tags: ['JavaScript', 'Arrays', 'Objects', 'Data Structures'],
   },
 ];
