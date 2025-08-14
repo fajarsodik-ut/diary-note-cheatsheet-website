@@ -38,7 +38,7 @@ export default function CheatsheetsPage() {
             Code Cheatsheets
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
-            Quick reference guides and practical examples for various programming languages and frameworks.
+            Quick reference guides and practical examples for various programming languages and frameworks. Updated August 15, 2025.
           </p>
         </div>
 
