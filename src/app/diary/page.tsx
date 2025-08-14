@@ -13,6 +13,14 @@ interface DiaryEntry {
 
 const diaryEntries: DiaryEntry[] = [
   {
+    id: 'javascript-arrays-study',
+    title: 'Deep Dive into JavaScript Arrays: My Study Notes',
+    excerpt: 'Today I created comprehensive study notes about JavaScript arrays. These concepts are fundamental for web development, and I wanted to document my learning process and key insights! 📚',
+    date: '2025-08-15',
+    readTime: '6 min read',
+    tags: ['JavaScript', 'Arrays', 'Learning', 'Study Notes', 'Programming', 'Web Development'],
+  },
+  {
     id: 'xampp-htdocs-configuration',
     title: 'Configuring XAMPP: Changing the htdocs Folder Location',
     excerpt: 'Today I learned how to configure XAMPP to use a custom folder on my D drive instead of the default htdocs location. This is super useful for organizing web projects across different drives! 🧑‍💻',
