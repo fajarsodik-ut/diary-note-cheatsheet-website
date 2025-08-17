@@ -21,6 +21,15 @@ const cheatsheets = [
     date: '2025-08-15',
     tags: ['JavaScript', 'Arrays', 'Objects', 'Data Structures'],
   },
+  {
+    id: 'javascript-arrays-review',
+    title: 'JavaScript Arrays Review',
+    description: 'Detailed review of JavaScript arrays: basics, 2D arrays, destructuring, and common methods with practical code examples.',
+    category: 'JavaScript',
+    readTime: '10 min read',
+    date: '2025-08-17',
+    tags: ['JavaScript', 'Arrays', 'Review', 'Methods', 'Destructuring'],
+  },
 ];
 
 export default function CheatsheetsPage() {
