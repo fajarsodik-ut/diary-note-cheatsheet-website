@@ -30,6 +30,15 @@ const cheatsheets = [
     date: '2025-08-17',
     tags: ['JavaScript', 'Arrays', 'Review', 'Methods', 'Destructuring'],
   },
+  {
+    id: 'javascript-objects-comprehensive',
+    title: 'Comprehensive JavaScript Objects Guide',
+    description: 'Everything you need to know about JavaScript objects: creation, properties, methods, prototypes, destructuring, and practical examples.',
+    category: 'JavaScript',
+    readTime: '12 min read',
+    date: '2025-08-18',
+    tags: ['JavaScript', 'Objects', 'Guide', 'Properties', 'Methods', 'Prototypes', 'Destructuring'],
+  },
 ];
 
 export default function CheatsheetsPage() {
