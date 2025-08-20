@@ -39,6 +39,15 @@ const cheatsheets = [
     date: '2025-08-18',
     tags: ['JavaScript', 'Objects', 'Guide', 'Properties', 'Methods', 'Prototypes', 'Destructuring'],
   },
+  {
+    id: 'javascript-loops-comprehensive',
+    title: 'Comprehensive Loop Guide in JavaScript',
+    description: 'Learn all about JavaScript loops: for, while, do...while, for...of, for...in, array methods, and practical patterns for iteration.',
+    category: 'JavaScript',
+    readTime: '10 min read',
+    date: '2025-08-20',
+    tags: ['JavaScript', 'Loops', 'Iteration', 'Guide', 'for', 'while', 'array methods'],
+  },
 ];
 
 export default function CheatsheetsPage() {
